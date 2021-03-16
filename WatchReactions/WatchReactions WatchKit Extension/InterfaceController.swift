@@ -6,11 +6,17 @@
 //
 
 import WatchKit
-import Foundation
+import AVFoundation
 
 
-class InterfaceController: WKInterfaceController {
-
+class InterfaceController: WKInterfaceController, SoundPlaying {
+    // MARK: - Properites -
+    ///IBOutlets
+    
+    ///Properties
+    var audioPlayer: AVAudioPlayer?
+    
+    // MARK: - Life Cycles -
     override func awake(withContext context: Any?) {
         // Configure interface objects here.
     }
@@ -22,5 +28,17 @@ class InterfaceController: WKInterfaceController {
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
     }
+    
+    
+    // MARK: - Actions -
+    @IBAction func playSoundOne() {
+    }
+    @IBAction func playSoundTwo() {
+    }
+    @IBAction func playSoundThree() {
+    }
+    @IBAction func playSoundFour() {
+    }
+    
 
 }
