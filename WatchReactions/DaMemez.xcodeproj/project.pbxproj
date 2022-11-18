@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		049EB19126002E150081B02C /* WatchReactions WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 049EB19026002E150081B02C /* WatchReactions WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		049EB19126002E150081B02C /* DaMemez WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 049EB19026002E150081B02C /* DaMemez WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		049EB19726002E150081B02C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049EB19526002E150081B02C /* Interface.storyboard */; };
 		049EB19926002E160081B02C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049EB19826002E160081B02C /* Assets.xcassets */; };
-		049EB1A026002E170081B02C /* WatchReactions WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 049EB19F26002E170081B02C /* WatchReactions WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		049EB1A526002E170081B02C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB1A426002E170081B02C /* InterfaceController.swift */; };
 		049EB1A726002E170081B02C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB1A626002E170081B02C /* ExtensionDelegate.swift */; };
 		049EB1A926002E170081B02C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB1A826002E170081B02C /* NotificationController.swift */; };
 		049EB1AB26002E170081B02C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB1AA26002E170081B02C /* ComplicationController.swift */; };
 		049EB1AD26002E170081B02C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049EB1AC26002E170081B02C /* Assets.xcassets */; };
 		049EB1C9260037A00081B02C /* SoundPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB1C8260037A00081B02C /* SoundPlaying.swift */; };
+		6EEF6B4A29276AAA00CD4EE9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049EB1AE26002E170081B02C /* Info.plist */; };
+		6EEF6B4B29276AAA00CD4EE9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049EB1AE26002E170081B02C /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,34 +28,16 @@
 			remoteGlobalIDString = 049EB18F26002E150081B02C;
 			remoteInfo = "WatchReactions WatchKit App";
 		};
-		049EB1A126002E170081B02C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 049EB18626002E150081B02C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 049EB19E26002E170081B02C;
-			remoteInfo = "WatchReactions WatchKit Extension";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		049EB1B526002E170081B02C /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				049EB1A026002E170081B02C /* WatchReactions WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		049EB1B926002E170081B02C /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				049EB19126002E150081B02C /* WatchReactions WatchKit App.app in Embed Watch Content */,
+				049EB19126002E150081B02C /* DaMemez WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,12 +45,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		049EB18C26002E150081B02C /* WatchReactions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchReactions.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		049EB19026002E150081B02C /* WatchReactions WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchReactions WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		049EB18C26002E150081B02C /* DaMemez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaMemez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049EB19026002E150081B02C /* DaMemez WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DaMemez WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049EB19626002E150081B02C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		049EB19826002E160081B02C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049EB19A26002E160081B02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		049EB19F26002E170081B02C /* WatchReactions WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchReactions WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049EB1A426002E170081B02C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		049EB1A626002E170081B02C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		049EB1A826002E170081B02C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -101,9 +83,8 @@
 		049EB18D26002E150081B02C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				049EB18C26002E150081B02C /* WatchReactions.app */,
-				049EB19026002E150081B02C /* WatchReactions WatchKit App.app */,
-				049EB19F26002E170081B02C /* WatchReactions WatchKit Extension.appex */,
+				049EB18C26002E150081B02C /* DaMemez.app */,
+				049EB19026002E150081B02C /* DaMemez WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		049EB18B26002E150081B02C /* WatchReactions */ = {
+		049EB18B26002E150081B02C /* DaMemez */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 049EB1BA26002E170081B02C /* Build configuration list for PBXNativeTarget "WatchReactions" */;
+			buildConfigurationList = 049EB1BA26002E170081B02C /* Build configuration list for PBXNativeTarget "DaMemez" */;
 			buildPhases = (
 				049EB18A26002E150081B02C /* Resources */,
 				049EB1B926002E170081B02C /* Embed Watch Content */,
@@ -188,44 +169,27 @@
 			dependencies = (
 				049EB19326002E150081B02C /* PBXTargetDependency */,
 			);
-			name = WatchReactions;
+			name = DaMemez;
 			productName = WatchReactions;
-			productReference = 049EB18C26002E150081B02C /* WatchReactions.app */;
+			productReference = 049EB18C26002E150081B02C /* DaMemez.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		049EB18F26002E150081B02C /* WatchReactions WatchKit App */ = {
+		049EB18F26002E150081B02C /* DaMemez WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 049EB1B626002E170081B02C /* Build configuration list for PBXNativeTarget "WatchReactions WatchKit App" */;
+			buildConfigurationList = 049EB1B626002E170081B02C /* Build configuration list for PBXNativeTarget "DaMemez WatchKit App" */;
 			buildPhases = (
 				049EB18E26002E150081B02C /* Resources */,
-				049EB1B526002E170081B02C /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				049EB1A226002E170081B02C /* PBXTargetDependency */,
-			);
-			name = "WatchReactions WatchKit App";
-			productName = "WatchReactions WatchKit App";
-			productReference = 049EB19026002E150081B02C /* WatchReactions WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		049EB19E26002E170081B02C /* WatchReactions WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 049EB1B226002E170081B02C /* Build configuration list for PBXNativeTarget "WatchReactions WatchKit Extension" */;
-			buildPhases = (
 				049EB19B26002E170081B02C /* Sources */,
 				049EB19C26002E170081B02C /* Frameworks */,
-				049EB19D26002E170081B02C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "WatchReactions WatchKit Extension";
-			productName = "WatchReactions WatchKit Extension";
-			productReference = 049EB19F26002E170081B02C /* WatchReactions WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
+			name = "DaMemez WatchKit App";
+			productName = "WatchReactions WatchKit App";
+			productReference = 049EB19026002E150081B02C /* DaMemez WatchKit App.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -234,7 +198,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					049EB18B26002E150081B02C = {
 						CreatedOnToolsVersion = 12.4;
@@ -242,12 +206,9 @@
 					049EB18F26002E150081B02C = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					049EB19E26002E170081B02C = {
-						CreatedOnToolsVersion = 12.4;
-					};
 				};
 			};
-			buildConfigurationList = 049EB18926002E150081B02C /* Build configuration list for PBXProject "WatchReactions" */;
+			buildConfigurationList = 049EB18926002E150081B02C /* Build configuration list for PBXProject "DaMemez" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -260,9 +221,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				049EB18B26002E150081B02C /* WatchReactions */,
-				049EB18F26002E150081B02C /* WatchReactions WatchKit App */,
-				049EB19E26002E170081B02C /* WatchReactions WatchKit Extension */,
+				049EB18B26002E150081B02C /* DaMemez */,
+				049EB18F26002E150081B02C /* DaMemez WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -272,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEF6B4A29276AAA00CD4EE9 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,16 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEF6B4B29276AAA00CD4EE9 /* Info.plist in Resources */,
 				049EB19926002E160081B02C /* Assets.xcassets in Resources */,
-				049EB19726002E150081B02C /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		049EB19D26002E170081B02C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 				049EB1AD26002E170081B02C /* Assets.xcassets in Resources */,
+				049EB19726002E150081B02C /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,13 +267,8 @@
 /* Begin PBXTargetDependency section */
 		049EB19326002E150081B02C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 049EB18F26002E150081B02C /* WatchReactions WatchKit App */;
+			target = 049EB18F26002E150081B02C /* DaMemez WatchKit App */;
 			targetProxy = 049EB19226002E150081B02C /* PBXContainerItemProxy */;
-		};
-		049EB1A226002E170081B02C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 049EB19E26002E170081B02C /* WatchReactions WatchKit Extension */;
-			targetProxy = 049EB1A126002E170081B02C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -448,61 +398,21 @@
 			};
 			name = Release;
 		};
-		049EB1B326002E170081B02C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H627294WQZ;
-				INFOPLIST_FILE = "WatchReactions WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodyMorley.WatchReactions.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.2;
-			};
-			name = Debug;
-		};
-		049EB1B426002E170081B02C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H627294WQZ;
-				INFOPLIST_FILE = "WatchReactions WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodyMorley.WatchReactions.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.2;
-			};
-			name = Release;
-		};
 		049EB1B726002E170081B02C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H627294WQZ;
-				IBSC_MODULE = WatchReactions_WatchKit_Extension;
+				DEVELOPMENT_TEAM = SRSNL7U47Y;
 				INFOPLIST_FILE = "WatchReactions WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodyMorley.WatchReactions.watchkitapp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.themoddersden.DaMemez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -517,12 +427,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H627294WQZ;
-				IBSC_MODULE = WatchReactions_WatchKit_Extension;
+				DEVELOPMENT_TEAM = SRSNL7U47Y;
 				INFOPLIST_FILE = "WatchReactions WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodyMorley.WatchReactions.watchkitapp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.themoddersden.DaMemez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -537,9 +451,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H627294WQZ;
+				DEVELOPMENT_TEAM = SRSNL7U47Y;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodyMorley.WatchReactions;
+				PRODUCT_BUNDLE_IDENTIFIER = com.themoddersden.DaMemez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -550,9 +464,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H627294WQZ;
+				DEVELOPMENT_TEAM = SRSNL7U47Y;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.CodyMorley.WatchReactions;
+				PRODUCT_BUNDLE_IDENTIFIER = com.themoddersden.DaMemez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -561,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		049EB18926002E150081B02C /* Build configuration list for PBXProject "WatchReactions" */ = {
+		049EB18926002E150081B02C /* Build configuration list for PBXProject "DaMemez" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049EB1B026002E170081B02C /* Debug */,
@@ -570,16 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		049EB1B226002E170081B02C /* Build configuration list for PBXNativeTarget "WatchReactions WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				049EB1B326002E170081B02C /* Debug */,
-				049EB1B426002E170081B02C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		049EB1B626002E170081B02C /* Build configuration list for PBXNativeTarget "WatchReactions WatchKit App" */ = {
+		049EB1B626002E170081B02C /* Build configuration list for PBXNativeTarget "DaMemez WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049EB1B726002E170081B02C /* Debug */,
@@ -588,7 +493,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		049EB1BA26002E170081B02C /* Build configuration list for PBXNativeTarget "WatchReactions" */ = {
+		049EB1BA26002E170081B02C /* Build configuration list for PBXNativeTarget "DaMemez" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049EB1BB26002E170081B02C /* Debug */,
